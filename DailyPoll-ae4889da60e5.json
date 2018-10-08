@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dailypoll-218819",
+  "private_key_id": "ae4889da60e5d323969ebe275164176001a424c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCRYm7cBwFwUgcs\nBEeMyDVAJ0f92JhPvxhU0a6aWGZ7bvH7fjBnwqqScEIJljOj8C48yZg2WjS+/e0V\nQPmXLDfmistEihbAf13TXxVqNr5Y83sJt37qTZJp/eWb6X1PG5kaVSUok8Se1Nku\nNX/ctQ1PgIAtjePY5JnahzwVANbuGh9ox7w1k4Jk4XA4rZe73MRp0hB82QKO6Lrr\nef0Cto9t4Ok/2uTTfXwdrHFURDDMi0XnYPv1+z6oXPWmeY2Yp+NOowyHX90Ey/Qq\nPA32e9Q9Jp+A9wQpwXP2OOe3qOb2YCx9GlOrEYtAGeZiegTt26QGu9b4CYhy65qb\nM1eWWEbTAgMBAAECggEACMwZrzYRT+L2zM1kKFBZFeJf8ywEaMGZzvrH2PkZF8ZV\nMtr7l4ZqXJAZvuDC4TGrFUHm9FWttBJDeAdwKEX5tU6YEYlVlR0KkrwXMfp8DCqM\n5b/1GGfMlfNSIzFpbrxZyFkh9XxI59+Iq3N7TYylxeDIYM6hh0IAo/446YBygQJ7\noiH7b2xIF8RJhsUan2PpNTHBHtnNejG8qShl/pFk0d+Rmdv9T3YMpCUO3sWyXizS\n/vDBJxpqwkfleowiUpFGGm2EmKf3l5Jv5KRD1WPgQzhkqVAGgyy2GeErgP1NBR66\nYqwob4TPx3mDnK8mvZYr1NQK+iCBTwm/Q71nSy28CQKBgQDFaMsDi9BobenxCZEi\nKeErXJ/dnfzhiSuwwu3VkgltUDxDhrXTGBVYQ9ryiUvD/oVr8r2qVanSl/f4bjCO\ndurMad1ei7p2gapWt3AXME3KHcq0vH2k1Pif64tdR7FyZVDE/z4oRRItl4gRD7oL\nf/Nsss063GnAIZ4S7hdWuAdDhQKBgQC8iMfWHd7DB1xKM/R/F6PPCJJ4uNes00PL\ngTKsGdj2RC2qQeWUgtWNeGd0FnvOGJeJ936U4Rf01KPAURPP+8kNnfsV9+ibU2GD\n28Bgy1HjtON3fixkZYLVd3+ju3bn8M9mBinHMDU/0OWj8rVssmIWumM1AQouuthd\nxUup5eOUdwKBgGh/pJfn9xaQuHoD2nP/P1a43VdvPmIVPq9/QG8Bs0POaVhFgxKP\neR0ULl6dFyJVJUOTZ5s3ZYI5N+amTcXcZUZ389sMlFQPJ6Bn0ko0I7mOM7Og49HR\nexsMkOV8Ag7QWwUtKDYg+hJwWHLPpGhZ/v3XWJSEAObX5NmYd3pMSGwRAoGAVbFm\nA3B4O/UwgZmz28CG+CdRTAXYIfm0qt8ChS8KaoT6rJRfIW2GW1MK0r0VcMvEtTUF\nF+5n0SSFeXhgpPwwmjvgUE/qLg9sF17exiAkDHe/nCSBUPDC0vwJzAX9Odc+rYTH\noH3M9kCg4DAFPm6mHuaBCSp70lmi1pxCk+ql0mkCgYAd27wI9QMb8oITypzCepCY\nTMZcx5eWKnRZpp+LMQwtuTNixnofZuH/95NPooqMfKzbFcFpnPIc4h10aP/qKtFS\nr18UQSEcGAFFAlwVm53tVNZhHd9pVSB7X7GHWe9R2MzB8i2KSiUKn4w6f/Z9CbJ1\nB6h0qPrOcfh18wb4mQ8QvQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dailypoll@dailypoll-218819.iam.gserviceaccount.com",
+  "client_id": "109569017253160910435",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dailypoll%40dailypoll-218819.iam.gserviceaccount.com"
+}
