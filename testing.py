@@ -2,6 +2,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 from datetime import datetime
+import json
+from urllib import request
 
 scope = ['https://spreadsheets.google.com/feeds',
     'https://www.googleapis.com/auth/drive']
@@ -41,4 +43,11 @@ def read():
     # Create the list of results from our data
     return [RESULTS[key] for key in sorted(RESULTS.keys())]
 
-print(read())
+
+def get_results():
+    url = "http://127.0.0.1:5000/api/results"
+    response = request.urlopen(url)
+    js = json.load(response)
+    print(js)
+
+get_results()
