@@ -2,24 +2,26 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 import time
-import matplotlib.pyplot as plt
 import numpy as np
-# Constants and Sheets
-scope = ['https://spreadsheets.google.com/feeds',
-'https://www.googleapis.com/auth/drive']
-# Google Sheet credentials
-credentials = ServiceAccountCredentials.from_json_keyfile_name('DailyPoll-ae4889da60e5.json', scope)
-gc = gspread.authorize(credentials)
+from flask import render_template
+import connexion
 
-string = ""
+# Create the application instance
+app = connexion.App(__name__, specification_dir='./')
 
-while True:
-    responses = gc.open("QOTD Responses").sheet1
-    data = pd.DataFrame(responses.get_all_records())
-    vals = data['Response'].value_counts()
-    str = "{} currently has {} votes. \n{} currently has {} votes.".format(vals.index[0], vals[0], vals.index[1],
-                                                                           vals[1])
-    if(str != string):
-        string = str
-        print(string)
-    time.sleep(60) # Updates 1440 times per day
+# Read the swagger.yml file to configure the endpoints
+app.add_api('swagger.yml')
+
+# Create a URL route in our application for "/"
+@app.route('/')
+def home():
+    """
+    This function just responds to the browser ULR
+    localhost:5000/
+    :return:        the rendered template 'home.html'
+    """
+    return render_template('home.html')
+
+# If we're running in stand alone mode, run the application
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
