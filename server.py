@@ -1,8 +1,3 @@
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import pandas as pd
-import time
-import numpy as np
 from flask import render_template
 import connexion
 
